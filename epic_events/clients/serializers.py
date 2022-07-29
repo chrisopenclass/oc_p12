@@ -9,7 +9,7 @@ class ClientSerializer(ModelSerializer):
         fields = ["id",
                   "first_name",
                   "last_name",
-                  "email",
+                  "mail_adress",
                   "phone",
                   "mobile",
                   "company_name",

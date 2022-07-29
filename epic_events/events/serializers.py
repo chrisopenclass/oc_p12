@@ -10,7 +10,7 @@ class EventSerializer(ModelSerializer):
         fields = ["name",
                   "contract",
                   "date_created",
-                  "date_updated",
+                  "updated_date",
                   "support_contact",
                   "attendees",
                   "event_date",

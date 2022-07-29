@@ -950,3 +950,121 @@ E:\openclass room\oc_p12\epic_events\epic_events\urls.py changed, reloading.
 Watching for file changes with StatReloader
 E:\openclass room\oc_p12\epic_events\epic_events\urls.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /admin/clients/client/ HTTP/1.1" 200 7254
+- Broken pipe from ('127.0.0.1', 1181)
+
+- Broken pipe from ('127.0.0.1', 1183)
+
+Not Found: /
+"GET / HTTP/1.1" 404 3574
+"GET /clients HTTP/1.1" 301 0
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\renderers.py", line 563, in get_raw_data_form
+    data = serializer.data.copy()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 257, in data
+    self._data = self.get_initial()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 405, in get_initial
+    for field in self.fields.values()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Client`.
+"GET /clients/ HTTP/1.1" 500 127018
+E:\openclass room\oc_p12\epic_events\clients\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /clients/ HTTP/1.1" 200 10945
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /contracts/ HTTP/1.1" 200 9809
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 1199)
+
+Internal Server Error: /events/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\renderers.py", line 563, in get_raw_data_form
+    data = serializer.data.copy()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 257, in data
+    self._data = self.get_initial()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 405, in get_initial
+    for field in self.fields.values()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `date_updated` is not valid for model `Event`.
+"GET /events/ HTTP/1.1" 500 126599
+E:\openclass room\oc_p12\epic_events\events\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/ HTTP/1.1" 200 10647
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 1222)
+
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
