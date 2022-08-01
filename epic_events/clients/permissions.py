@@ -5,7 +5,7 @@ class IsSaleEmployee(permissions.BasePermission):
     message = "Only sales employee assigned to the client can add or update client data"
 
     def has_permission(self, request, view):
-        if request.method == 'POST' and request.user.groups == 'SUPPORT':
+        if request.method == 'POST' and request.user.groups == 'sales':
             return False
         return True
 
