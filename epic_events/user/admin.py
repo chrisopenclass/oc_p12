@@ -8,10 +8,8 @@ admin.site.empty_value_display = '(None)'
 
 class UserStaff(UserAdmin):
     model = Users
-    list_display = ("last_name", "first_name", "role")
-    list_filter = ("role", )
-    """fields = (("first_name", "last_name"), "email", "role", "password",
-              "is_active", "is_staff", "username")"""
+    list_display = ("last_name", "first_name")
+    list_filter = ("groups__name",)
 
 
 admin.site.register(Users, UserStaff)
