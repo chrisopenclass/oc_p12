@@ -18,6 +18,6 @@ class IsSupportEmployee(permissions.BasePermission):
     message = "Support employee can only read data"
 
     def has_permission(self, request, view):
-        if request.method == 'POST' and request.user.role == 'support':
+        if request.method == 'POST' and request.user.groups == 'support':
             return False
         return True
