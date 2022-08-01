@@ -23,7 +23,7 @@ class IsEventFinish(permissions.BasePermission):
         if request.method in permissions.SAFE_METHODS:
             return True
 
-        return obj.event_date > timezone.now()
+        return obj.event_date > timezone.now().date()
 
 
 class IsSaleEmployeeassignee(permissions.BasePermission):

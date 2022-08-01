@@ -1679,3 +1679,598 @@ E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
 Watching for file changes with StatReloader
 E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /clients/ HTTP/1.1" 200 11134
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+- Broken pipe from ('127.0.0.1', 25190)
+
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 25184)
+
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"OPTIONS /clients/ HTTP/1.1" 200 14629
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"OPTIONS /clients/ HTTP/1.1" 200 14629
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/user/users/? HTTP/1.1" 200 10223
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+- Broken pipe from ('127.0.0.1', 17710)
+
+"GET /admin/clients/client/ HTTP/1.1" 200 7254
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/clients/client/add/ HTTP/1.1" 200 12434
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/clients/client/add/ HTTP/1.1" 302 0
+"GET /admin/clients/client/ HTTP/1.1" 200 8648
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/logout/ HTTP/1.1" 200 1530
+Unauthorized: /clients/
+"GET /clients/ HTTP/1.1" 401 5147
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /api-auth/login/?next=/clients/ HTTP/1.1" 200 2709
+Not Found: /api-auth/img/grid.png
+"GET /api-auth/img/grid.png HTTP/1.1" 404 3900
+"POST /api-auth/login/ HTTP/1.1" 302 0
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: email, converted
+"GET /clients/ HTTP/1.1" 500 121896
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: email, converted
+"GET /clients/ HTTP/1.1" 500 121896
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /clients/ HTTP/1.1" 200 11767
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"OPTIONS /clients/ HTTP/1.1" 200 14629
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"OPTIONS /clients/ HTTP/1.1" 200 14629
+"GET /api-auth/login/?next=/clients/ HTTP/1.1" 200 2709
+"GET /clients/ HTTP/1.1" 200 11767
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /clients/?first_name=rabbit HTTP/1.1" 200 11901
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 17762)
+
+"POST /clients/?first_name=rabbit HTTP/1.1" 201 6150
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /clients/?first_name=rabbit HTTP/1.1" 200 12541
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /clients/1 HTTP/1.1" 301 0
+"GET /clients/1/ HTTP/1.1" 200 6199
+Not Found: /clients/img/grid.png
+"GET /clients/img/grid.png HTTP/1.1" 404 3652
+"GET /clients/?first_name=%22rabbit%22 HTTP/1.1" 200 12583
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /clients/?last_name=%22rabbit%22 HTTP/1.1" 200 12576
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /clients/?last_name=rabbit HTTP/1.1" 200 12534
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: email
+"GET /clients/?last_name=rabbit HTTP/1.1" 500 121656
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /clients/?last_name=rabbit HTTP/1.1" 200 12641
+- Broken pipe from ('127.0.0.1', 17859)
+
+"GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /clients/?first_name=rabbit HTTP/1.1" 200 13281
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /clients/ HTTP/1.1" 200 13637
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /contract/
+"GET /contract/ HTTP/1.1" 404 3619
+Internal Server Error: /contracts/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: first_name, mail_adress
+"GET /contracts/ HTTP/1.1" 500 120654
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /contracts/ HTTP/1.1" 200 11724
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"POST /contracts/ HTTP/1.1" 201 5866
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /contracts/ HTTP/1.1" 200 12138
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 17942)
+
+"POST /contracts/ HTTP/1.1" 201 5867
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /contracts/ HTTP/1.1" 200 12553
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 17949)
+
+Bad Request: /contracts/
+"GET /contracts/?client=rabbit HTTP/1.1" 400 10447
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /contracts/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: client__fist_name
+"GET /contracts/?client=rabbit HTTP/1.1" 500 121962
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 17967)
+
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /contracts/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: client_
+"GET /contracts/?client=rabbit HTTP/1.1" 500 121747
+Watching for file changes with StatReloader
+Bad Request: /contracts/
+"GET /contracts/?client=rabbit HTTP/1.1" 400 10447
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /contracts/?client=1 HTTP/1.1" 200 12210
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /contracts/?client=1&date_created=&amount= HTTP/1.1" 200 12429
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /contracts/?client=1&date_created=&amount= HTTP/1.1" 200 12429
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /contracts/?client=2&date_created=&amount= HTTP/1.1" 200 12428
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /events/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: client
+"GET /events/ HTTP/1.1" 500 120527
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/ HTTP/1.1" 200 12475
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /events/?contract=1&event_date= HTTP/1.1" 200 12681
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Bad Request: /events/
+"POST /events/ HTTP/1.1" 400 11450
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Bad Request: /events/
+"POST /events/ HTTP/1.1" 400 11450
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Bad Request: /events/
+"POST /events/ HTTP/1.1" 400 11450
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/ HTTP/1.1" 200 12475
+- Broken pipe from ('127.0.0.1', 18263)
+
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 18265)
+
+Bad Request: /events/
+"POST /events/ HTTP/1.1" 400 11446
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 18266)
+
+Watching for file changes with StatReloader
+"GET /events/ HTTP/1.1" 200 12475
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /events/ HTTP/1.1" 200 12475
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\events\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /events/ HTTP/1.1" 200 12465
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Internal Server Error: /events/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\renderers.py", line 541, in get_raw_data_form
+    if not self.show_form_for_method(view, method, request, instance):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\renderers.py", line 433, in show_form_for_method
+    view.check_object_permissions(request, obj)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 345, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "E:\openclass room\oc_p12\epic_events\events\permissions.py", line 26, in has_object_permission
+    return obj.event_date > timezone.now()
+TypeError: can't compare datetime.datetime to datetime.date
+"POST /events/ HTTP/1.1" 500 103152
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /events/ HTTP/1.1" 201 5847
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 28225)
+
+E:\openclass room\oc_p12\epic_events\epic_events\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/?contract=1&event_date= HTTP/1.1" 200 13621
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 28234)
+
+"GET /events/?contract=2&event_date= HTTP/1.1" 200 12671
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628

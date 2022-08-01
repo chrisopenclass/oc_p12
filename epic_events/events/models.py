@@ -17,7 +17,7 @@ class Event(models.Model):
                                         related_name="event_assigned_to",
                                         null=True)
     attendees = models.IntegerField()
-    event_date = models.DateTimeField()
+    event_date = models.DateField()
     notes = models.TextField(max_length=500)
     ended = models.BooleanField(default=False)
 
