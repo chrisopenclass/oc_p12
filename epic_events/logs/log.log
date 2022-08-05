@@ -9300,3 +9300,41 @@ Not Found: /img/grid.png
 Not Found: /favicon.ico
 - Broken pipe from ('127.0.0.1', 26526)
 
+"GET /admin/clients/client/ HTTP/1.1" 200 9569
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/clients/client/4/change/ HTTP/1.1" 200 12886
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/clients/client/ HTTP/1.1" 200 9569
+"GET /admin/contracts/contract/ HTTP/1.1" 200 8711
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/events/event/ HTTP/1.1" 200 8646
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/events/event/ HTTP/1.1" 200 7530
+"POST /admin/events/event/ HTTP/1.1" 302 0
+"GET /admin/events/event/ HTTP/1.1" 200 7379
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/contracts/contract/ HTTP/1.1" 200 8711
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/contracts/contract/ HTTP/1.1" 200 7589
+"POST /admin/contracts/contract/ HTTP/1.1" 302 0
+"GET /admin/contracts/contract/ HTTP/1.1" 200 7415
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/clients/client/ HTTP/1.1" 200 9569
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/clients/client/ HTTP/1.1" 200 8167
+"POST /admin/clients/client/ HTTP/1.1" 302 0
+"GET /admin/clients/client/ HTTP/1.1" 200 7391
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/user/users/ HTTP/1.1" 200 10458
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/user/users/8/change/ HTTP/1.1" 200 19761
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+Not Found: /
+"GET / HTTP/1.1" 404 3574
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32017)
+
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader

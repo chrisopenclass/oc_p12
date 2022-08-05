@@ -30,6 +30,5 @@ class ClientViewSet(viewsets.ModelViewSet):
                 client = []
             for client_id in list_client_of_user:
                 client.append(int(client_id))
-            print(client)
             return Client.objects.filter(id__in=client)
         return Client.objects.filter(sales_contact=self.request.user.id)
