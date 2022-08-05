@@ -9788,3 +9788,244 @@ Not Found: /events/16/
 "GET /events/16/ HTTP/1.1" 404 12390
 Not Found: /events/img/grid.png
 "GET /events/img/grid.png HTTP/1.1" 404 3649
+"GET /api-auth/logout/?next=/events/ HTTP/1.1" 302 0
+Unauthorized: /events/
+"GET /events/ HTTP/1.1" 401 5135
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 2297
+"GET /clients/ HTTP/1.1" 200 7324
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /clients/12/ HTTP/1.1" 200 6205
+Not Found: /clients/img/grid.png
+"GET /clients/img/grid.png HTTP/1.1" 404 3652
+"GET /events/ HTTP/1.1" 200 7691
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/auth/group/ HTTP/1.1" 200 9333
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/user/users/ HTTP/1.1" 200 10458
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/user/users/10/change/ HTTP/1.1" 200 19754
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32653)
+
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+"GET /events/16/ HTTP/1.1" 200 6048
+- Broken pipe from ('127.0.0.1', 32655)
+
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+- Broken pipe from ('127.0.0.1', 32660)
+
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+"POST /admin/user/users/10/change/ HTTP/1.1" 302 0
+"GET /admin/user/users/ HTTP/1.1" 200 10676
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /events/16/ HTTP/1.1" 200 6048
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/16/ HTTP/1.1" 200 12989
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32746)
+
+"PUT /events/16/ HTTP/1.1" 200 12994
+"GET /events/ HTTP/1.1" 200 13272
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /events/16/ HTTP/1.1" 200 12994
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649
+"PUT /events/16/ HTTP/1.1" 200 12989
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /events/16/
+"PUT /events/16/ HTTP/1.1" 403 6714
+"GET /events/ HTTP/1.1" 200 13273
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"POST /events/ HTTP/1.1" 201 5656
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /events/ HTTP/1.1" 201 5656
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /events/ HTTP/1.1" 200 14265
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"POST /events/ HTTP/1.1" 201 5663
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/ HTTP/1.1" 200 14265
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/ HTTP/1.1" 200 14265
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"POST /events/ HTTP/1.1" 201 5663
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /events/ HTTP/1.1" 200 14265
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\events\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /events/ HTTP/1.1" 200 8683
+- Broken pipe from ('127.0.0.1', 32930)
+
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /admin/user/users/8/change/ HTTP/1.1" 200 19761
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /api-auth/logout/?next=/events/ HTTP/1.1" 302 0
+Unauthorized: /events/
+"GET /events/ HTTP/1.1" 401 5135
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+- Broken pipe from ('127.0.0.1', 32932)
+
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 2300
+"GET /events/ HTTP/1.1" 200 12788
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
