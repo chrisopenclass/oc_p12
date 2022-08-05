@@ -1,4 +1,5 @@
 from rest_framework import permissions
+from django.contrib.auth.models import Group
 
 
 class IsSaleEmployeeAssigned(permissions.BasePermission):
@@ -18,6 +19,7 @@ class IsSupportEmployee(permissions.BasePermission):
     message = "Support employee can only read data"
 
     def has_permission(self, request, view):
-        if request.method == 'POST' and request.user.groups == 'support':
+        if request.method == 'POST' and Group.objects.get(name="sales")\
+          in request.user.groups.all():
             return False
         return True

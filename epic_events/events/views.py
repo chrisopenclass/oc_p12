@@ -3,7 +3,7 @@ from .models import Event
 from .serializers import EventSerializer
 from rest_framework.permissions import IsAuthenticated
 from .permissions import IsEventFinish, IsSaleEmployeeassignee, IsSupportEmployee
-from django_filters import rest_framework as filters
+from django_filters.rest_framework import DjangoFilterBackend
 
 
 class EventViewSet(viewsets.ModelViewSet):
@@ -13,8 +13,10 @@ class EventViewSet(viewsets.ModelViewSet):
                           IsEventFinish,
                           IsSaleEmployeeassignee,
                           IsSupportEmployee]
-    filter_backends = (filters.DjangoFilterBackend,)
-    filterset_fields = ('contract', 'event_date')
+    filter_backends = (DjangoFilterBackend,)
+    filterset_fields = ['contract', 'event_date', 'contract__client__mail_adress',
+                        'contract__client__first_name']
 
     def get_queryset(self):
-        return Event.objects.all()
+        return Event.objects.filter(
+            support_contact=self.request.user.id)

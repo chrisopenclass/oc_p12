@@ -1,12 +1,14 @@
 from django.utils import timezone
 from rest_framework import permissions
+from django.contrib.auth.models import Group
 
 
 class IsSupportEmployee(permissions.BasePermission):
     message = "Support employee can only read data"
 
     def has_permission(self, request, view):
-        if request.method == 'POST' and request.user.groups == 'support':
+        if request.method == 'POST' and Group.objects.get(name="support")\
+          in request.user.groups.all():
             return False
         return True
 
@@ -19,11 +21,12 @@ class IsEventFinish(permissions.BasePermission):
         return request.user and request.user.is_authenticated
 
     def has_object_permission(self, request, view, obj):
+        if obj.event_date < timezone.now().date():
+            return False
 
         if request.method in permissions.SAFE_METHODS:
             return True
-
-        return obj.event_date > timezone.now().date()
+        return True
 
 
 class IsSaleEmployeeassignee(permissions.BasePermission):

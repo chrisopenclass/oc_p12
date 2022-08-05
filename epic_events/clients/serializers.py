@@ -18,3 +18,4 @@ class ClientSerializer(ModelSerializer):
                   "sales_contact",
                   "is_customer"
                   ]
+        read_only_fields = ['sales_contact']
