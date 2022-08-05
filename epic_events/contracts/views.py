@@ -13,6 +13,9 @@ class ContractViewSet(viewsets.ModelViewSet):
     filter_backends = (DjangoFilterBackend,)
     filterset_fields = ['client__mail_adress', 'date_created', 'amount', 'client__first_name']
 
+    def perform_create(self, serializer):
+        serializer.save(sales_contact=self.request.user)
+
     def get_queryset(self):
         return Contract.objects.filter(
             sales_contact=self.request.user.id)

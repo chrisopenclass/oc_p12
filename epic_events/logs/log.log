@@ -9338,3 +9338,453 @@ Not Found: /favicon.ico
 
 E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
 Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 3574
+Not Found: /
+"GET / HTTP/1.1" 404 3574
+"GET /admin/ HTTP/1.1" 200 9421
+"GET /admin/logout/ HTTP/1.1" 200 1530
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 2300
+"GET /clients/ HTTP/1.1" 200 11646
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+"GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+"POST /clients/ HTTP/1.1" 201 6040
+"GET /clients/ HTTP/1.1" 200 11646
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Permission denied): /admin/clients/client/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\contrib\admin\options.py", line 1923, in changelist_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+"GET /admin/clients/client/ HTTP/1.1" 403 135
+"GET /admin/ HTTP/1.1" 200 2300
+"GET /admin/logout/ HTTP/1.1" 200 1530
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9421
+"GET /admin/clients/client/ HTTP/1.1" 200 8421
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/clients/client/ HTTP/1.1" 200 7374
+"POST /admin/clients/client/ HTTP/1.1" 302 0
+"GET /admin/clients/client/ HTTP/1.1" 200 7390
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /api-auth/logout/?next=/clients/ HTTP/1.1" 302 0
+Unauthorized: /clients/
+"GET /clients/ HTTP/1.1" 401 5147
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32086)
+
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 2377
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 2300
+"GET /clients/ HTTP/1.1" 200 11646
+- Broken pipe from ('127.0.0.1', 32088)
+
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"POST /clients/ HTTP/1.1" 201 6040
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /clients/ HTTP/1.1" 200 11646
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'save'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\epic_events\clients\views.py", line 21, in create
+    serializer.save(sales_contact=self.request.user)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'save'
+"POST /clients/ HTTP/1.1" 500 103661
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\epic_events\clients\views.py", line 29, in create
+    serialized_data.save()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 180, in save
+    assert hasattr(self, '_errors'), (
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+"POST /clients/ HTTP/1.1" 500 101760
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32237)
+
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\epic_events\clients\views.py", line 29, in create
+    serialized_data.save()
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 180, in save
+    assert hasattr(self, '_errors'), (
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+"POST /clients/ HTTP/1.1" 500 101629
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32239)
+
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /clients/
+"POST /clients/ HTTP/1.1" 400 11289
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32259)
+
+Bad Request: /clients/
+"POST /clients/ HTTP/1.1" 400 11289
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32263)
+
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /clients/ HTTP/1.1" 201 6055
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32292)
+
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\openclass room\oc_p12\epic_events\clients\views.py", line 21, in perform_create
+    serializer.save(sales_contact=self.request.user.id)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\db\models\query.py", line 512, in create
+    obj = self.model(**kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\db\models\base.py", line 541, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 235, in __set__
+    raise ValueError(
+ValueError: Cannot assign "8": "Client.sales_contact" must be a "Users" instance.
+"POST /clients/ HTTP/1.1" 500 135950
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32317)
+
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\openclass room\oc_p12\epic_events\clients\views.py", line 22, in perform_create
+    serializer.save(sales_contact=self.request.user.id)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\db\models\query.py", line 512, in create
+    obj = self.model(**kwargs)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\db\models\base.py", line 541, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "E:\openclass room\oc_p12\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 235, in __set__
+    raise ValueError(
+ValueError: Cannot assign "8": "Client.sales_contact" must be a "Users" instance.
+"POST /clients/ HTTP/1.1" 500 135950
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32334)
+
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\clients\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /clients/ HTTP/1.1" 201 11073
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32372)
+
+"GET /admin/clients/client/ HTTP/1.1" 200 8904
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/clients/client/ HTTP/1.1" 302 0
+"GET /admin/clients/client/ HTTP/1.1" 200 9029
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/clients/client/ HTTP/1.1" 200 7715
+"POST /admin/clients/client/ HTTP/1.1" 302 0
+"GET /admin/clients/client/ HTTP/1.1" 200 7391
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /clients/ HTTP/1.1" 201 11073
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"POST /clients/ HTTP/1.1" 201 11047
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"GET /clients/12/ HTTP/1.1" 200 12604
+Not Found: /clients/img/grid.png
+"GET /clients/img/grid.png HTTP/1.1" 404 3652
+"PUT /clients/12/ HTTP/1.1" 200 12619
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /clients/12/contract/
+"GET /clients/12/contract/ HTTP/1.1" 404 3652
+Not Found: /clients/12/contracts/
+"GET /clients/12/contracts/ HTTP/1.1" 404 3655
+"GET /contracts/ HTTP/1.1" 200 7054
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32462)
+
+"GET /contracts/ HTTP/1.1" 200 7054
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32464)
+
+E:\openclass room\oc_p12\epic_events\contracts\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /contracts/ HTTP/1.1" 200 10570
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32477)
+
+E:\openclass room\oc_p12\epic_events\contracts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /contracts/ HTTP/1.1" 200 11867
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32485)
+
+E:\openclass room\oc_p12\epic_events\contracts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+E:\openclass room\oc_p12\epic_events\contracts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /contracts/ HTTP/1.1" 200 11056
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 32497)
+
+"POST /contracts/ HTTP/1.1" 201 9885
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /contracts/8/
+"GET /contracts/8/ HTTP/1.1" 404 10860
+Not Found: /contracts/img/grid.png
+"GET /contracts/img/grid.png HTTP/1.1" 404 3658
+"GET /contracts/7/ HTTP/1.1" 200 11463
+Not Found: /contracts/img/grid.png
+"GET /contracts/img/grid.png HTTP/1.1" 404 3658
+"PUT /contracts/7/ HTTP/1.1" 200 11463
+Not Found: /contracts/7/events/
+"GET /contracts/7/events/ HTTP/1.1" 404 3649
+"GET /events/ HTTP/1.1" 200 12788
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+"POST /events/ HTTP/1.1" 201 11500
+Not Found: /img/grid.png
+"GET /img/grid.png HTTP/1.1" 404 3628
+Not Found: /events/16/
+"GET /events/16/ HTTP/1.1" 404 12390
+Not Found: /events/img/grid.png
+"GET /events/img/grid.png HTTP/1.1" 404 3649

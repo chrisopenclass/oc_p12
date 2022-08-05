@@ -15,3 +15,4 @@ class ContractSerializer(ModelSerializer):
                   "amount",
                   "payement_date",
                   ]
+        read_only_fields = ['sales_contact']

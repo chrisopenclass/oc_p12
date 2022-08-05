@@ -17,6 +17,9 @@ class ClientViewSet(viewsets.ModelViewSet):
     filter_backends = (filters.DjangoFilterBackend,)
     filterset_fields = ('first_name', 'mail_adress')
 
+    def perform_create(self, serializer):
+        serializer.save(sales_contact=self.request.user)
+
     def get_queryset(self):
         if Group.objects.get(name="support") in self.request.user.groups.all():
             list_event_of_user = []
